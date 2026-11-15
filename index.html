@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100f1a">
+<title>CSS Clip-path Animation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="shell">
+  <h1>CSS clip-path Animation</h1>
+  <section class="app-frame">
+    <nav class="tabs" role="tablist" aria-label="Clip-path animation examples">
+      <button class="tab active" role="tab" aria-selected="true" data-effect="circle">Circle reveal</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="hexagon">Hexagon pulse</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="star">Star spin</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="diamond">Diamond breathe</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="diagonal">Diagonal sweep</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="curtain">Curtain drop</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="iris">Iris open</button>
+      <button class="tab" role="tab" aria-selected="false" data-effect="blinds">Venetian blinds</button>
+    </nav>
+
+    <section class="demo-panel">
+      <h2 id="effectTitle">Circle reveal</h2>
+      <div class="visual-stage">
+        <div class="visual circle" id="visual" role="img" aria-label="Animated ocean image clipped into a circle"></div>
+      </div>
+      <div class="code-card">
+        <pre><code id="codeOutput"></code></pre>
+      </div>
+    </section>
+  </section>
+  <footer><span>PURE CSS CLIP-PATH PLAYGROUND</span><span>8 ANIMATIONS</span></footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
